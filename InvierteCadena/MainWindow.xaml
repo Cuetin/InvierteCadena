@@ -17,6 +17,9 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Name="Invertir" Content="Invertir la cadena" Grid.Row="0" Grid.Column="0" Margin="30"/>
+        <Button Name="Invertir" Content="Invertir la cadena" Grid.Row="0" Grid.Column="0" Margin="30" Click="Invertir_Click"/>
+        <Button Name="Mayusculas" Content="Mayúsculas" Grid.Row="1" Grid.Column="0" Margin="30"/>
+        <TextBox Name="Entrante" Grid.Row="0" Grid.Column="1" Margin="30"/>
+        <Label Name="Salida" Grid.Row="1" Grid.Column="1" Margin="30" Background="Khaki"/>
     </Grid>
 </Window>

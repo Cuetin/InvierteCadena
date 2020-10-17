@@ -23,5 +23,16 @@ namespace InvierteCadena
         {
             InitializeComponent();
         }
+
+        private void Invertir_Click(object sender, RoutedEventArgs e)
+        {
+            TextBox tb = Entrante;
+            Label eti = Salida;
+            int i;
+            string aux = "";
+            for (i = 0; i < tb.Text.Length; i++)
+                aux += tb.Text[tb.Text.Length - i - 1];
+            eti.Content = aux;
+        }
     }
 }
