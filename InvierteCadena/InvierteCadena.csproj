@@ -89,5 +89,12 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sources\neon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Sources\mal.jpg" />
+    <Resource Include="Sources\ok.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

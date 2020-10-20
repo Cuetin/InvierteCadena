@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="Invierte cadena" Height="400" Width="600">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Sources\neon.jpg"/>
+        </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -18,7 +21,10 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Button Name="Invertir" Content="Invertir la cadena" Grid.Row="0" Grid.Column="0" Margin="30" Click="Invertir_Click"/>
-        <Button Name="Mayusculas" Content="Mayúsculas" Grid.Row="1" Grid.Column="0" Margin="30"/>
+        <Button Name="Mayusculas" Content="Mayúsculas" Grid.Row="1" Grid.Column="0" Margin="30" Click="Mayusculas_Click"/>
+        <Button Name="Ambas" Content="Invertir y Mayúsculas" Grid.Row="2" Grid.Column="0" Margin="30" Click="Ambas_Click"/>
+        <Button Name="Capicua" Content="Capicua" Grid.Row="2" Grid.Column="1" Margin="30,30,05,30" HorizontalAlignment="Left" Width="90" Click="Capicua_Click"/>
+        <Label Name="ResuCapicua" Grid.Row="2" Grid.Column="1" Margin="05,30,30,30" HorizontalAlignment="Right" Background="White" Width="130"/>
         <TextBox Name="Entrante" Grid.Row="0" Grid.Column="1" Margin="30"/>
         <Label Name="Salida" Grid.Row="1" Grid.Column="1" Margin="30" Background="Khaki"/>
     </Grid>
